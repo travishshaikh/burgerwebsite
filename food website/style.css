@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,400;1,900&family=Oswald&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&display=swap');
+
+
+*{
+    margin: 0;padding: 0;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    font-family:'Kanit', Courier, monospace;
+}
+
+
+
+
+
+
+
+/* cont2  group2*/
+.titlefirst p{
+    border: 2px dashed #472611;
+    padding: 20px;
+    max-width: max-content;
+}
+.group1{
+    background-image: url(images/images/bacground.png);
+}
+.navitems{
+    display: flex;
+ float: right;
+}
+.navitems li 
+{
+    list-style: none;
+    padding: 10px 20px; 
+}
+.navitems li a{
+    text-decoration: none;
+    color: #472611;
+}
+
+
+
+
+.alignimage img{
+    
+   opacity: 1;
+
+}
+
+
+.firstimg{
+    width: 603;
+    height: 424px;
+    background-image: url(images/images/onionburger.png );
+        background-repeat: no-repeat;
+  object-fit: cover;
+        border-radius: 10px;
+        position: relative;  
+        
+}  
+
+
+
+.secondimg{
+    
+    height: 195px;
+    background-image: url(images/images/dub.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    position: relative;
+   
+   
+}
+
+
+
+.thirdimg{
+  
+    height: 195px;
+    background-image: url(images/images/butteronion.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: 1rem;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+#try{
+   position: absolute;
+   top: 30px;
+   left: 30px;
+   width: fit-content;
+    
+}
+
+  
+#titletext{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1px;
+}
+#try h5{
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    line-height: 26px;
+
+}
+
+/* cont2  group2*/
+
+
+
+
+/* group3 */
+
+
+.card1 img{
+    height: 227px;
+    
+}
+
+.orderbtn{
+    outline: none;
+  font-weight: bolder;
+}
+/* group3 */
+
+
+
+
+/* group4 */
+.group4box{
+    box-shadow: 13px 11px 14px 19px rgba(226,226,226,1);
+  padding: 20px;
+  overflow: hidden;
+
+}
+
+.textsection3{
+    overflow: hidden;
+
+}
+.section3{
+ 
+ 
+
+}
+
+/* group4 */
+.section4{
+    margin-top: 100px;
+    position: relative;
+}
+
+#bookbtn{
+    background-color: #DF1C1C;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.simple img{
+    position: absolute;
+    top: 0%;
+    left: -10%;
+}
+
+
+/* group5*/
+
+
+/* 
+group6 */
+
+.section5{
+    background-image: url(images/images/lastimage.png);
+   
+    width: max-content;
+}
+.address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location img{
+    margin-right: 20px;
+}
+.email img{
+    margin-right: 20px;
+}
+.icons span{
+    margin: 5px;
+}
+
+
+@media (max-width:600px){
+    .simple{
+        display: none;
+    }
+    .bottel{
+        display: none;
+    }
+    .plate{
+        display: none;
+    }
+}
